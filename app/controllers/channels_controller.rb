@@ -1,5 +1,5 @@
 class ChannelsController < ApplicationController
-  before_action :set_channel, only: [:destroy, :show]
+  before_action :set_channel, only: [:show, :destroy]
 
   def show
     authorize! :read, @channel

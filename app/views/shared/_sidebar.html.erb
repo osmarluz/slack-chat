@@ -14,7 +14,7 @@
         </li>
       </ul>
     </li>
-    <li>  <%= link_to('Logout', destroy_user_session_path, :method => :delete) %></li>
+    <li><%= link_to('Logout', destroy_user_session_path, :method => :delete) %></li>
   <% else %>
     <li><a href="/users/sign_in">Login</a></li>
     <li><div class="divider"></div></li>
