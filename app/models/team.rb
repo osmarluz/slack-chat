@@ -5,7 +5,7 @@ class Team < ApplicationRecord
   has_many :team_users, dependent: :destroy
   has_many :users, through: :team_users
   validates_presence_of :slug, :user
-  validates :slug, uniqueness: true, format: { with: /\A[a-zA-Z0-9]+\Z/ }
+  validates :slug, uniqueness: true, format: { with: /\A[a-zA-Z0-9]+(( |_)[a-zA-Z0-9]+)*\Z/ }
 
   before_save :general_channel
 
