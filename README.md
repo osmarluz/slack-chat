@@ -1,8 +1,8 @@
 # Slack Chat
 > This is the repository for a Ruby on Rails application that implements a subset of the functionalities in the Slack app.
 
-![ruby](https://img.shields.io/badge/Ruby-2.4.2-red.svg)
-![rails](https://img.shields.io/badge/Rails-5.1.4-red.svg)
+![ruby](https://img.shields.io/badge/Ruby-2.3.5-red.svg)
+![rails](https://img.shields.io/badge/Rails-5.0.6-red.svg)
 
 As known by anyone familiar with the Slack app, it allows for the creation of teams and within it have several chat rooms in which the users can communicate with one another. It also allows users to communicate directly through private messages. This app replicates this basic behavior of the original one.
 
